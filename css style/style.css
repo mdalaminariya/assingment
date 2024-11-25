@@ -1,0 +1,261 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 10px 30px 0px 25px;
+}
+.first{
+    margin-left: 10%;
+    margin-right: 15%;
+    display: flex;
+   justify-content: space-between;
+}
+.first>h4{
+    margin-top: 30px;
+}
+.first>button{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px; 
+    height: 40px; 
+    width: 200px;
+    background-color: white;
+}
+header{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/Hero-bg.png);
+    margin-top: 20px;
+}
+.nav-design>img{
+    align-items: center;
+    margin-left: 40%;
+}
+nav>h1{
+    text-align: center;
+    font-size: 40px;
+}
+nav>h6{
+    margin-left: 20%;
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+}
+nav>button{
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px; 
+    height: 40px; 
+    width: 200px;
+    margin-left: 40%;
+}
+.main-section {
+    margin-top: 100%;
+}
+
+/* about section style */
+
+.section-t-d{
+    margin-left: 30%;
+}
+.section-description{
+    margin-left: -20%;
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+}
+.section-description>span{
+    margin-left: 18%;
+}
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: rgb(253, 248, 248);
+    margin-top: 60px;
+    margin-bottom: 250px;
+    padding-bottom: 70px;
+}
+.about-info>.btn{
+    background-color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: -10%;
+}
+.info-title{
+    margin-left: 20px;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.about-info{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.about-info>h4{
+    font-size: 24px;
+    color: rgb(34, 33, 33);
+}
+.info{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.title{
+    padding-left: 50%;
+}
+.info>.button{
+    background-color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    padding-top: -50px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+}
+.about-info>.btn{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.inspire{
+    padding-left: 500px;
+    margin-top: -170px;
+}
+.current{
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 370px;
+    height: 230px;
+    background-color: rgb(250, 228, 215);
+}
+.title-current{
+    margin-left: 10px;
+}
+.target{
+    display: flex;
+    justify-content: space-around
+}
+.current>h3{
+    padding-top: -20px;
+    font-size: 22px;
+    padding-left: 40px;
+}
+.next-target{
+    margin-top: 120px;
+    margin-left: 36%;
+}
+.about-info>h3{
+    font-weight: bold;
+    font-size: 35px;
+}
+.about-info>p{
+    margin-left: -220px;
+    font-weight: 500;
+    color: rgba(58, 57, 57, 0.89);
+}
+
+.reactjs{
+    border: 1px solid rgba(71, 71, 71, 0.699);
+    border-radius: 10px;
+    height: 220px;
+    width: 80%;
+    margin-left: 150px;
+}
+.tar>h3{
+    margin-left: 170px;
+    font-weight: bold;
+    margin-top: -120px;
+    font-size: 28px;
+}
+.tar>img{
+    padding-top: 60px;
+    height: 80px;
+    margin-left: 15px;
+}
+.tar>p{
+    padding-left: 170px;
+}
+.tar>.link{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+.nodejs{
+    border: 1px solid rgba(71, 71, 71, 0.699);
+    border-radius: 10px;
+    height: 220px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.mongodb{
+    border: 1px solid rgba(71, 71, 71, 0.699);
+    border-radius: 10px;
+    height: 220px;
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.support{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.support>img{
+    border-radius: 20px;
+    height: 370px;
+    width: 90%;
+}
+.support>.suportme{
+    color: white;
+    margin-top: -280px;
+}
+.suportme>h3{
+    margin-top: -20px;
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: 36px;
+}
+.suportme>p{
+    margin-left: 29%;
+    color: rgba(255, 255, 255, 0.637);
+}
+.suportme>.input{
+    padding-left: 20%;
+}
+.input>input{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: inherit;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 50%;
+    padding-left: 15px;
+}
+.input>button{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 120px;
+}
+footer{
+    background-color: rgba(126, 123, 123, 0.034);
+    height: 100px;
+    margin-top: 220px;
+}
+.footer{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.footer>h4{
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.footer>.img{
+    height: 35px;
+    margin-top: -60px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60%;
+}
